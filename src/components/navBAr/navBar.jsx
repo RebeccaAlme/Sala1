@@ -21,10 +21,10 @@ const navBar = () => {
     </Nav>
   </Card.Header>
   <Card.Body>
-    <Card.Title>ReAl</Card.Title>
-    <Card.Text>
+    <Card.Title className='lead'>ReAl</Card.Title>
+    <Card.Text className='font-italic'>
     ¿Has tenido la sensación alguna vez de entrar en un sitio y sentirte transportado a un lugar especial? Un lugar que te envuelve con su aroma, su decoración, su espíritu. Un lugar que te atrapa y mejora tu estado de ánimo en un momento. ¡Eso es precisamente lo que sientes al entrar en ReAl!    </Card.Text>
-    <Button variant="primary">Conócenos</Button>
+    <Button variant="secondary">Conócenos</Button>
   </Card.Body>
 </Card>
       )

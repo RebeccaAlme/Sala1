@@ -11,7 +11,7 @@ const footer = () => {
       <Card.Text>
         Facebook | Instagram | TikTok | YouTube
       </Card.Text>
-      <Button variant="primary">Recibe nuestras promociones</Button>
+      <Button variant="secondary">Recibe nuestras promociones</Button>
     </Card.Body>
     <Card.Footer className="text-muted">Made with love by RebeccaAlMe</Card.Footer>
   </Card>
