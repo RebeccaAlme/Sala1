@@ -14,7 +14,7 @@ const navBar = () => {
         <Nav.Link href="#link">Menú</Nav.Link>
       </Nav.Item>
       <Nav.Item>
-        <Nav.Link href="#disabled">
+        <Nav.Link href="#reservaciones">
           Reservaciones
         </Nav.Link>
       </Nav.Item>

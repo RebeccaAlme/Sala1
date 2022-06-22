@@ -10,10 +10,10 @@ const infoPrincipal = () => {
     <Card.ImgOverlay>
       <Card.Title>ReAl <p>La experiencia lo es todo</p></Card.Title>
       <Card.Text>
-        Odena en ReAl y disfruta las mejores hamburguesas a tu gusto, recien hechas y con los mejores ingredientes delicatessen premium del Estado de México
-        <p>C.Atenas #2 56420</p>
+        Odena en ReAl y disfruta las mejores hamburguesas a tu gusto, recien hechas y con los mejores ingredientes delicatessen premium.
+        <p>C.Atenas #2 CP.56420 Estado de México ||  5500000006/5500000004</p>
+        <p></p>
       </Card.Text>
-      <Card.Text>5500000006 | 5500000004</Card.Text>
     </Card.ImgOverlay>
   </Card>
   )
