@@ -1,6 +1,7 @@
 import React from 'react'
 import { Card,Button, Container, Row} from 'react-bootstrap'
 import {menuRestaurante} from '../../helpers/menu'
+import Footer from '../footer/footer'
 
 
 const Menu = () => {
@@ -25,6 +26,7 @@ const Menu = () => {
             }
         </Row>
     </Container>
+    <Footer/>
     </>
   )
 }
