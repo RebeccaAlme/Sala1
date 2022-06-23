@@ -11,33 +11,37 @@ const reservaciones = () => {
     <>
     <Navbar>
       <Container>
-        <Navbar.Brand href="#home">Reserva ahora mismo</Navbar.Brand>
+        <Navbar.Brand href="#home">Reserva ahora mismo y recibe un shot de cortesía</Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end">
           <Navbar.Text>
-            Mis reservaciones<a href="#login">LogIn</a>
+            Mi cuenta <a href="#login">LogIn</a>
           </Navbar.Text>
         </Navbar.Collapse>
       </Container>
     </Navbar>
 
       <FloatingLabel
-        controlId="floatingInput"
-        label="Email address"
+        controlId="usuario"
+        label="Usuario"
         className="mb-3"
       >
-        <Form.Control type="email" placeholder="name@example.com" />
+        <Form.Control type="text" placeholder="Usuario" />
       </FloatingLabel>
-      <FloatingLabel controlId="floatingPassword" label="Password">
-        <Form.Control type="password" placeholder="Password" />
+      <FloatingLabel controlId="fecha" label="Fecha deseada">
+        <Form.Control type="date" placeholder="Password" />
       </FloatingLabel>
+      <br />
 
       <Button variant="secondary" size="lg">
          Confirmar reservacion
         </Button>
       
 
-      
+      <div>
+        <img src="https://th.bing.com/th/id/OIP.Bu0YVYIeVUHfKOKv_-vIbgHaD6?pid=ImgDet&rs=1" alt="" />
+        
+      </div>
       <Footer/>
     </>
   )

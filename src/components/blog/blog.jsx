@@ -51,6 +51,8 @@ const blog = () => {
   </blockquote>
 </Card.Body>
 </Card>
+
+
 </>
   )
 }
