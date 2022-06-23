@@ -37,7 +37,7 @@ const blog = () => {
     </Navbar>  
 
 <Card>
-<Card.Header>Quote</Card.Header>
+<Card.Header>Bienvenidxs</Card.Header>
 <Card.Body>
   <blockquote className="blockquote mb-0">
     <p>
