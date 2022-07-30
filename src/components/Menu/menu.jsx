@@ -8,7 +8,7 @@ const Menu = () => {
   return (
       <>
     <Container>  
-    <h1 className='menu-title tituloMenu'>Menú</h1> 
+    <h1 className='menu-title tituloMenu'>Lista de productos</h1> 
         <Row>    
             {   
                 menuRestaurante.map ( ({id,seccion,nombre, descripcion,imagen}) => (

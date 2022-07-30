@@ -12,7 +12,7 @@ const blog = () => {
     <>
     <Navbar variant="dark" bg="dark" expand="lg">
       <Container fluid>
-        <Navbar.Brand href="/">ReAl Restaurante</Navbar.Brand>
+        <Navbar.Brand href="/">Joyeria Sala1</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbar-dark-example" />
         <Navbar.Collapse id="navbar-dark-example">
           <Nav>
@@ -37,7 +37,7 @@ const blog = () => {
     </Navbar>  
 
 <Card>
-<Card.Header>Bienvenidxs</Card.Header>
+<Card.Header>Lista de productos</Card.Header>
 <Card.Body>
   <blockquote className="blockquote mb-0">
     <p>

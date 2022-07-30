@@ -15,18 +15,18 @@ const navBar = () => {
         <Nav.Link href="/">Home</Nav.Link>
       </Nav.Item>
       <Nav.Item>
-        <Nav.Link href="/Menu">Menú</Nav.Link> 
+        <Nav.Link href="/Menu">Lista de productos</Nav.Link> 
       </Nav.Item>
       <Nav.Item>
-        <Nav.Link href="/Blog">Blog</Nav.Link>
+        <Nav.Link href="/Blog">About us</Nav.Link>
       </Nav.Item>
     </Nav>
   </Card.Header>
   <Card.Body>
-    <Card.Title className='lead'>ReAl</Card.Title>
+    <Card.Title className='lead'>Sala 1</Card.Title>
     <Card.Text className='font-italic'>
-    ¿Has tenido la sensación alguna vez de entrar en un sitio y sentirte transportado a un lugar especial? Un lugar que te envuelve con su aroma, su decoración, su espíritu. Un lugar que te atrapa y mejora tu estado de ánimo en un momento. ¡Eso es precisamente lo que sientes al entrar en ReAl!    </Card.Text>
-    <Button href="/reservaciones" variant="secondary">Reservaciones</Button>
+    Collares y joyeria; demuestra tu amor y compromiso con nosotros ¡Tenemos el detalle justo para ese ser amado!    </Card.Text>
+    <Button href="/reservaciones" variant="secondary">Comprar ahora</Button>
   </Card.Body>
 </Card>
       )
